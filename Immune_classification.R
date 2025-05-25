@@ -45,7 +45,7 @@ dir.create(cluster_path)
 # 01. set the number of clusters (K=2) and the initial minimal number of cells (n_cell=6) ####
 K = 2
 num_cell_list = c(6:length(candidate_celltypes)) 
-num_cell_list = 13
+# num_cell_list = 13
 result_all = data.frame()
 for (n_cell in num_cell_list) {
   # 02. generate all possible combinations of n_cell cell types from the 13 candidate cell types ####
